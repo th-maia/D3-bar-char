@@ -1,0 +1,39 @@
+body {
+  background-color: gray;
+}
+
+main {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  border: solid black 1px;
+  box-shadow: 2px 2px 20px;
+}
+
+details{
+  justify-content: flex-start;
+  align-self: start;
+}
+
+details summary {
+  cursor: pointer;
+}
+
+.bar:hover {
+  fill: green;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  background-color: DeepSkyBlue;
+  border: 1px solid DodgerBlue;
+  border-radius: 6px;
+  opacity: 0.85;
+  box-shadow: 2px 2px 10px black;
+}
+
+
